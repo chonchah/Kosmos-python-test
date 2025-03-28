@@ -16,7 +16,7 @@ Este servidor utiliza el protocolo TCP para establecer conexiones con clientes y
 
 1. Clona el repositorio: `git clone https://github.com/chonchah/Kosmos-python-test.git`
 2. Ejecuta el servidor: `python server.py`
-3. Conecta un cliente al servidor utilizando el comando `telnet 127.0.0.1 5000`
+3. Conecta un cliente al servidor utilizando el comando ```bash python3 client.py```
 
 ## Instrucciones para ejecutar el servidor
 
@@ -32,8 +32,19 @@ No cuenta con dependencias externas a las nativas incluidas en la instalacion de
 
 Ejecuta el servidor utilizando el comando:
 ```bash python server.py ```
+La salida debe lucir asi: 
+```bash
+$ python3 server.py 
+Servidor iniciado en 127.0.0.1:5000
+Conexión establecida con ('127.0.0.1', 62214)
+```
 
 ### Paso 4: Conecta un cliente al servidor
 
-Conecta un cliente al servidor utilizando el comando: ```bash python client.py ```
+Conecta un cliente al servidor utilizando el comando: ```bash python client.py ``` y envia un mensaje. La salida debe lucir asi:
+```bash
+$ python3 client.py 
+Conectado al servidor en 127.0.0.1:5000
+Mensaje: 
+```
 
