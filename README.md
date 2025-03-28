@@ -14,7 +14,7 @@ Este servidor utiliza el protocolo TCP para establecer conexiones con clientes y
 
 ## Uso
 
-1. Clona el repositorio: `git clone https://github.com/chonchah/Kosmos-python-test.git`
+1. Clona el repositorio: `git clone https://github.com/chonchah/Kosmos-python-test.git` y has un **cd**
 2. Ejecuta el servidor: `python server.py`
 3. Conecta un cliente al servidor utilizando el comando ```bash python3 client.py```
 
@@ -22,7 +22,7 @@ Este servidor utiliza el protocolo TCP para establecer conexiones con clientes y
 
 ### Paso 1: Clona el repositorio
 
-Clona el repositorio utilizando el comando:
+Clona el repositorio utilizando el comando y has un **cd** dentro de este:
 `git clone https://github.com/chonchah/Kosmos-python-test.git`
 ### Paso 2: Instala las dependencias
 
