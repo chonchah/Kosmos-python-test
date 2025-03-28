@@ -14,7 +14,7 @@ Este servidor utiliza el protocolo TCP para establecer conexiones con clientes y
 
 ## Uso
 
-1. Clona el repositorio: `git clone https://github.com/Chonchah/servidor-tcp-kosmos.git`
+1. Clona el repositorio: `git clone https://github.com/chonchah/Kosmos-python-test.git`
 2. Ejecuta el servidor: `python server.py`
 3. Conecta un cliente al servidor utilizando el comando `telnet 127.0.0.1 5000`
 
@@ -23,7 +23,7 @@ Este servidor utiliza el protocolo TCP para establecer conexiones con clientes y
 ### Paso 1: Clona el repositorio
 
 Clona el repositorio utilizando el comando:
-```bash git clone https://github.com/Chonchah/servidor-tcp-kosmos.git```
+`git clone https://github.com/chonchah/Kosmos-python-test.git`
 ### Paso 2: Instala las dependencias
 
 No cuenta con dependencias externas a las nativas incluidas en la instalacion de >python 3.11
